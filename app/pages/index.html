@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block nav_home %}active{% endblock %}
+
+{% block content %}
+    <button id="start">Start</button>
+    <button id="clear">Clear</button>
+    Speed: <input type="range" min="50" max="3000" id="speed">
+    <canvas id="gol" width="800" height="800"></canvas>
+
+{% endblock %}
