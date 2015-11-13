@@ -37,7 +37,8 @@ gulp.task('nunjucks', function() {
 gulp.task('js', function() {
     var b = browserify({
         entries: 'app/scripts/app.js',
-        debug: true
+        debug: true,
+        transform: ['strictify', 'babelify']
     });
 
     return b.bundle()

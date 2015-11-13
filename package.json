@@ -1,9 +1,10 @@
 {
-  "name": "sbb-redesign",
+  "name": "js-game-of-life",
   "version": "0.0.1",
   "private": true,
-  "description": "A redesign of the sbb.ch website. This has no affiliation with SBB",
+  "description": "Conway's Game of Life implementation in JavaScript",
   "devDependencies": {
+    "babelify": "^7.2.0",
     "browserify": "^12.0.0",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
@@ -12,6 +13,7 @@
     "gulp-sass": "^2.0.4",
     "gulp-util": "^3.0.7",
     "run-sequence": "^1.1.4",
+    "strictify": "^0.2.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
